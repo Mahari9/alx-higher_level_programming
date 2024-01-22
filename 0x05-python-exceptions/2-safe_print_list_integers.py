@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 def safe_print_list_integers(my_list=[], x=0):
     """
@@ -9,9 +9,9 @@ def safe_print_list_integers(my_list=[], x=0):
     num_intprnt = 0
     for i in range(x):
         try:
-            print("{:d}".format(my_list[x]), end="")
+            print("{:d}".format(my_list[i]), end="")
             num_intprnt += 1
-        except(ValueError, TypeError):
+        except (ValueError, TypeError):
             continue
     print("")
     return num_intprnt
