@@ -5,10 +5,10 @@ class Rectangle {
 	 * @w The value of the width
 	 * @h The value of the height
 	 */
-  constructor (w, h) {
-    this.width = w;
-    this.height = h;
-  }
+	constructor (w, h) {
+		this.width = w;
+		this.height = h;
+	}
 }
 
 module.exports = Rectangle;
