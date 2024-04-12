@@ -1,7 +1,6 @@
 # 0x0F. Python - Object-relational mapping
 Python OOP SQL MySQL ORM SQLAlchemy
-Background Context
-------------------
+## Background Context
 
 In this project, you will link two amazing worlds: Databases and Python!
 
